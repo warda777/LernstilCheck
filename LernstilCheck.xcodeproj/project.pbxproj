@@ -6,26 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7F272FEF2E69D26C002C3FE0 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7F272FEE2E69D26C002C3FE0 /* ConfettiSwiftUI */; };
+		7F272FF22E69D7D0002C3FE0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7F272FF12E69D7CF002C3FE0 /* Lottie */; };
+		7F32EF9B2E6F786D001A126A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7F32EF9A2E6F786D001A126A /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7F272FC52E6969B7002C3FE0 /* LernstilCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LernstilCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7F272FD72E6969B9002C3FE0 /* Exceptions for "LernstilCheck" folder in "LernstilCheck" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7F272FC42E6969B7002C3FE0 /* LernstilCheck */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7F272FC72E6969B7002C3FE0 /* LernstilCheck */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7F272FD72E6969B9002C3FE0 /* Exceptions for "LernstilCheck" folder in "LernstilCheck" target */,
-			);
 			path = LernstilCheck;
 			sourceTree = "<group>";
 		};
@@ -36,6 +29,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F272FEF2E69D26C002C3FE0 /* ConfettiSwiftUI in Frameworks */,
+				7F272FF22E69D7D0002C3FE0 /* Lottie in Frameworks */,
+				7F32EF9B2E6F786D001A126A /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				7F272FC72E6969B7002C3FE0 /* LernstilCheck */,
+				7F32EF992E6F786D001A126A /* Frameworks */,
 				7F272FC62E6969B7002C3FE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +53,13 @@
 				7F272FC52E6969B7002C3FE0 /* LernstilCheck.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7F32EF992E6F786D001A126A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +82,9 @@
 			);
 			name = LernstilCheck;
 			packageProductDependencies = (
+				7F272FEE2E69D26C002C3FE0 /* ConfettiSwiftUI */,
+				7F272FF12E69D7CF002C3FE0 /* Lottie */,
+				7F32EF9A2E6F786D001A126A /* Supabase */,
 			);
 			productName = LernstilCheck;
 			productReference = 7F272FC52E6969B7002C3FE0 /* LernstilCheck.app */;
@@ -107,6 +114,11 @@
 			);
 			mainGroup = 7F272FBC2E6969B7002C3FE0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7F272FED2E69D26C002C3FE0 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				7F272FF02E69D7CF002C3FE0 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				7F32EF922E6F7414001A126A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7F272FC62E6969B7002C3FE0 /* Products */;
 			projectDirPath = "";
@@ -147,12 +159,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QZT95PHR34;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LernstilCheck/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -175,12 +187,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QZT95PHR34;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LernstilCheck/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +349,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F272FED2E69D26C002C3FE0 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		7F272FF02E69D7CF002C3FE0 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+		7F32EF922E6F7414001A126A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F272FEE2E69D26C002C3FE0 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F272FED2E69D26C002C3FE0 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		7F272FF12E69D7CF002C3FE0 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F272FF02E69D7CF002C3FE0 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		7F32EF9A2E6F786D001A126A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F32EF922E6F7414001A126A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F272FBD2E6969B7002C3FE0 /* Project object */;
 }
